@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  WtaRanking
+
+  Created by Adam Jassak on 16/09/2022.
+  
+*/
+
+"homeTab" = "Home";
+"aboutTab" = "About";
+"homeHeadline" = "Top 5 WTA Players";
+"aboutHeadline" = "About WtaRanking";
+"aboutBody" = "Demo application demonstrating fetching records from CloudKit.";
