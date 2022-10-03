@@ -10,9 +10,10 @@ iOS app - WtaRanking. Created using SwiftUI.
 Demonstrating CloudKit usage with iOS application. Applying Clean architecture with modern Swift Concurrency (Async/Await) for fetching remote Records from CloudKit Container and displaying results using SwiftUI based interface.
 
 Target: iOS15
+
 Stack: SwiftUI, Async/Await, CloudKit, SwiftGen (strongly typed assets), MVVM/Viper (Clean Architecture).
 
-In order to create CloudKit Container follow these steps:
+Creating custom CloudKit Container:
 1. Proceed to https://developer.apple.com
 2. Open Account -> Certificates, IDs & Profiles -> Identiefiers
 3. Tap + Button to register new identifier
@@ -25,9 +26,11 @@ In order to create CloudKit Container follow these steps:
 9. Proceed to Schema / Record Types and tap on + to create new Record Type (which is equivalent of Table)
 10. Name the Record Type appropriately and add fields
 
-11. Proceed to Shcema / Indexes and open recently created Record Type
+11. Proceed to Schema / Indexes and open recently created Record Type
 12. Click on + Add Basic Index and create following two indexes:
+
 a) For Field recordName create Queryable index type
+
 b) For any other field create Sortable index type
 
 13. Open Data / Records and tap on + to add new record
